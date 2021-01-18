@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* /RESET SETTNGS */
 
+/* /RESET SETTNGS */
 /* FONTS */
 
 body{
@@ -14,7 +14,6 @@ font-family: 'Rubik Mono One', sans-serif;
 }
 
 /* /FONTS */
-
 /* NAV */
 
 nav{
@@ -40,6 +39,7 @@ a{
 }
 
 /* /NAV */
+/* MAIN CSS  */
 
 #top-section{
   background-color: #ec4646;
@@ -47,11 +47,16 @@ a{
   position: relative;
 }
 
- img{
+ .content{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+section > div > h2{
+margin-top: -40px;
 }
 
 #middle-section{
@@ -60,8 +65,18 @@ a{
       position: relative;
 }
 
+.subtitle-1{
+  text-transform: capitalize;
+  color: #ffe227;
+}
+
 #bottom-section{
   background-color: #ffe227;
     height: 100vh;
     position: relative;
+}
+
+.subtitle-2{
+  text-transform: capitalize;
+  color: #0c9463;
 }
