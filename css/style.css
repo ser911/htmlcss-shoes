@@ -1,0 +1,58 @@
+/* RESET SETTNGS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /RESET SETTNGS */
+
+/* FONTS */
+
+body{
+font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* /FONTS */
+
+/* NAV */
+
+nav{
+  position: fixed;
+  top: 50px;
+  right: 60px;
+  display: inline-block;
+
+}
+
+ul li {
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 50px 10px 0 90%;
+}
+
+/* /NAV */
+
+#top-section{
+  height: 100vh;
+  background-color: #ec4646;
+}
+
+#middle-section{
+    background-color: #0c9463;
+      height: 100vh;
+}
+
+#bottom-section{
+  background-color: #ffe227;
+    height: 100vh;
+
+}
