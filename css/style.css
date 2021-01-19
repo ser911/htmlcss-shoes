@@ -21,14 +21,15 @@ nav{
   z-index: 1;
   top: 50px;
   right: 60px;
-  display: inline-block;
+
 }
 
 ul li {
   display: inline-block;
 }
 
-a{
+ul li a{
+  font-weight: bold;
   text-decoration: none;
   color: black;
   border: 1px solid white;
@@ -47,17 +48,24 @@ a{
   position: relative;
 }
 
- .content{
+.content img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+}
+
+section > div > h2{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+  margin-top: 220px;
 }
 
-section > div > h2{
-margin-top: -40px;
-}
+
 
 #middle-section{
     background-color: #0c9463;
