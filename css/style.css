@@ -15,7 +15,9 @@ font-family: 'Rubik Mono One', sans-serif;
 
 /* /FONTS */
 /* NAV */
-
+html{
+  scroll-behavior: smooth;
+}
 nav{
   position: fixed;
   z-index: 1;
